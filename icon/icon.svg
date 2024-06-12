@@ -1,0 +1,62 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- <rect width="512" height="512" fill="rgb(240,233,216)" /> -->
+  <!-- <rect fill="#D4936E" width="100" height="100" x="512" />
+  <rect fill="#30161C" width="100" height="100" x="612" />
+  <rect fill="#FFF3DF" width="100" height="100" x="712" />
+  <rect fill="#DA3503" width="100" height="100" x="512" y="100" />
+  <rect fill="#FC6300" width="100" height="100" x="612" y="100" />
+  <rect fill="#A62E0A" width="100" height="100" x="712" y="100" />
+  <rect fill="#FFFFFF" width="100" height="100" x="512" y="200" />
+  <rect fill="#F1D6B4" width="100" height="100" x="612" y="200" /> -->
+
+  <!-- <image width="512" height="512" href="https://imgur.com/BCOLHuV.png" /> -->
+
+  <path d="
+  M254 403 l-52 -50 l17 8 l35 10 z
+  M258 403 l52 -50 l-17 8 l-35 10 z
+  " fill="#ff00aa" opacity="0.5" />
+
+  <path d="
+  M256 323 h1 l19 12 l-9 6 l-11 -8 l-11 8 l-9 -6 l19 -12 z
+  M209 340 l-71 -21 l8 8 l73 34 z
+  M303 340 l71 -21 l-8 8 l-73 34 z
+  M340 182 l-16 -16 l32 -20 z
+  M172 182 l16 -16 l-32 -20 z
+  " fill="blue" opacity="0.5" />
+
+  <path d="
+  M256 341 h11 l9 -6 l-2 18 l-17 12 h-2 l-17 -12 l-2 -18 l 9 6 z
+  M257 365 q 17 10 34 0 q -34 40 -70 0 q 17 10 34 0 z
+  M256 470 l-161 -164 l37 11 l122 124 v24 h4 v-24 l122 -124 l37 -11 z
+  M232 299 l-15 -28 l-15 -2 l-24 -15 l18 -13 l28 9 z
+  M280 299 l15 -28 l15 -2 l24 -15 l-18 -13 l-28 9 z
+  M134 219 l37 -35 l-64 -140 q -5 50 4 100 z
+  M378 219 l-37 -35 l64 -140 q 5 50 -4 100 z
+  " fill="#aaff00" opacity="0.5" />
+
+  <circle cx="384" cy="223" r="2" fill="#aaff00" opacity="0.5" />
+  <circle cx="128" cy="223" r="2" fill="#aaff00" opacity="0.5" />
+
+  <path d="
+  M256 333 l11 8 h-22 z
+  " fill="cyan" opacity="0.5" />
+
+  <circle cx="307" cy="252" r="3" fill="cyan" opacity="0.5" />
+  <circle cx="205" cy="252" r="3" fill="cyan" opacity="0.5" />
+
+  <path d="
+  M274 353 l17 12 q -17 10 -34 0 z
+  M238 353 l17 12 q -17 10 -34 0 z
+  M146 327 l108 111 v-35 l-52 -50 z
+  M366 327 l-108 111 v-35 l52 -50 z
+  M187 162 l-34 -21 l-22 -47 l21 5 z
+  M325 162 l34 -21 l21 -47 l-20 5 z
+  M363 96 l19 -5 l17 -37 z
+  M149 96 l-19 -5 l-17 -37 z
+  " fill="#00aaff" opacity="0.5" />
+
+  <path d="
+  M274 353 l17 12 l12 -25 z
+  M238 353 l-17 12 l-12 -25 z
+  " fill="#ffaa00" opacity="0.5" />
+</svg>

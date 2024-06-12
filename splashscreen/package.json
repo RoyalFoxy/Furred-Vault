@@ -1,0 +1,19 @@
+{
+  "name": "splashscreen",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@kitajs/html": "^4.1.0",
+    "@kitajs/ts-html-plugin": "^4.0.1",
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^7.0.2",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
+  }
+}
