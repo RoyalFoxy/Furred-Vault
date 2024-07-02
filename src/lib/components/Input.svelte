@@ -1,10 +1,13 @@
 <script lang="ts">
   export let area: boolean = false;
   export let label: string | undefined = undefined;
+  export let disabled: boolean = false;
 
   export let value: string | null = null;
 
-  if (!$$props.id) {
+  export let wrapperClass: string | null = null;
+
+  if (!$$props.id && label) {
     $$props.id = `${label?.toLowerCase()}-${area ? "text-area" : "input"}`;
   }
 
@@ -20,7 +23,13 @@
   </label>
 {/if}
 
-<div class="flex gap-2">
+<div
+  class={`
+    flex gap-2
+
+    ${wrapperClass}
+  `}
+>
   {#if area}
     <textarea
       {...$$props}
@@ -34,6 +43,8 @@
 
         ${$$props.class}
       `}
+      {disabled}
+      on:change
       bind:value
     />
   {:else}
@@ -49,6 +60,8 @@
 
         ${$$props.class}
       `}
+      {disabled}
+      on:change
       bind:value
     />
   {/if}

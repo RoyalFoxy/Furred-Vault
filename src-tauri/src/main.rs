@@ -4,7 +4,7 @@
 use commands::{
     analyze_password, change_password_of_vault, close_splashscreen, create_password_entry,
     create_vault, delete_password_entry, delete_vault, get_uuid, get_vaults, load_vault,
-    rename_vault, suggest_strong_password, update_password_entry,
+    rename_vault, search_passwords, suggest_strong_password, update_password_entry,
 };
 
 pub mod app_error;
@@ -32,6 +32,7 @@ fn main() {
             get_vaults,
             load_vault,
             rename_vault,
+            search_passwords,
             suggest_strong_password,
             update_password_entry,
         ])

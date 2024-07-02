@@ -58,6 +58,12 @@
     }
   };
 
+  const onTagChange = ({ target }: Event) => {
+    selectedPassword!.tags = ((target as HTMLInputElement).value || "")
+      .split(",")
+      .map((tag) => tag.trim());
+  };
+
   $: if ($closePopover) {
     resetClosePopover();
     goto("/vault/view");
@@ -112,6 +118,15 @@
             bind:value={selectedPassword.website}
           />
         </div>
+
+        <Input
+          class="mb-2"
+          label="Tags"
+          placeholder="Tags"
+          type="text"
+          value={selectedPassword.tags.join(", ")}
+          on:change={onTagChange}
+        />
 
         <div class="mb-2 flex flex-col">
           <Input

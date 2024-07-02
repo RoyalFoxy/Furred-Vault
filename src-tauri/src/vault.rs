@@ -5,24 +5,35 @@ use uuid::Uuid;
 
 #[derive(TS)]
 #[ts(export)]
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Default)]
+#[serde(default)]
 pub struct PasswordEntry {
     id: Uuid,
     username: String,
     password: String,
     website: String,
     notes: String,
+    tags: Vec<String>,
 }
 
 impl PasswordEntry {
     pub fn id(&self) -> Uuid {
         self.id
     }
+
+    pub fn website(&self) -> String {
+        self.website.clone()
+    }
+
+    pub fn tags(&self) -> Vec<String> {
+        self.tags.clone()
+    }
 }
 
 #[derive(TS)]
 #[ts(export)]
 #[derive(Debug, Serialize, Deserialize, Default)]
+#[serde(default)]
 pub struct VaultData {
     name: String,
     pub passwords: Vec<PasswordEntry>,

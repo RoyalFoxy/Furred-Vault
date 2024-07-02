@@ -49,12 +49,17 @@
     await goto("/vault/view");
   };
 
+  const onTagChange = ({ target }: Event) => {
+    input.tags = ((target as HTMLInputElement).value || "").split(",").map((tag) => tag.trim());
+  };
+
   const input: PasswordEntry = {
     id: "",
     username: "",
     password: "",
     notes: "",
     website: "",
+    tags: [],
   };
 
   let usernameInput: HTMLInputElement | null;
@@ -112,6 +117,8 @@
         spellcheck="false"
         bind:value={input.website}
       />
+
+      <Input class="mb-2" label="Tags" placeholder="Tags" type="text" on:change={onTagChange} />
 
       <Input
         class="mb-2"

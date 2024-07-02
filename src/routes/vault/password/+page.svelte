@@ -126,7 +126,7 @@
         <div class="mb-2 flex flex-col">
           <PasswordInput
             canCopy
-            disabled
+            disabled={true}
             label="password"
             showPasswordStrength
             visibilityToggle
@@ -144,6 +144,15 @@
             value={selectedPassword.website}
           />
         </div>
+
+        <Input
+          class="mb-2"
+          disabled
+          label="Tags"
+          placeholder="Tags"
+          type="text"
+          value={selectedPassword.tags.join(", ")}
+        />
 
         <div class="mb-2 flex flex-col">
           <Input

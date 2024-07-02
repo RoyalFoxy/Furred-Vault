@@ -23,10 +23,10 @@
 
 <div class="relative">
   <Input
+    {disabled}
     placeholder="Password"
     required
     type={passwordHidden ? "password" : "text"}
-    bind:disabled
     bind:label
     bind:value={password}
     bind:inputElement={passwordInput}

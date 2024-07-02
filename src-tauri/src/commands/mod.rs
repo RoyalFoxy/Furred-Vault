@@ -9,6 +9,7 @@ mod get_uuid;
 mod get_vaults;
 mod load_vault;
 mod rename_vault;
+mod search_passwords;
 mod suggest_strong_password;
 mod update_password_entry;
 
@@ -23,5 +24,6 @@ pub use get_uuid::get_uuid;
 pub use get_vaults::get_vaults;
 pub use load_vault::load_vault;
 pub use rename_vault::rename_vault;
+pub use search_passwords::search_passwords;
 pub use suggest_strong_password::suggest_strong_password;
 pub use update_password_entry::update_password_entry;
