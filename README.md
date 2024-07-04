@@ -46,7 +46,7 @@ The feature list below isn't fully complete and will grow over time and requests
 | --------------------------------- | -------------- |
 | Password saving                   | ✅ Obviously :) |
 | Multiple Vaults                   | ✅              |
-| Flash screen                       | ✅              |
+| Flash screen                      | ✅              |
 | Custom *slightly annoying* cursor | ✅              |
 | Toasts!                           | ✅              |
 | Vault renaming                    | ✅              |
@@ -59,10 +59,10 @@ The feature list below isn't fully complete and will grow over time and requests
 | History via git                   | ❌              |
 | Backup via Github etc.            | ❌              |
 | Device sync                       | ❌              |
-| Advanced password search          | ❌              |
+| Advanced password search          | 🛠️              |
 | App integration                   | ❌              |
 | Automatic password saving         | ❌              |
-| Design/Animation improvements     | ❌              |
+| Design/Animation improvements     | 🛠️              |
 
 | Emoji | Meaning         |
 | ----- | --------------- |

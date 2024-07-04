@@ -7,7 +7,7 @@ pub fn search_passwords(
     passwords: Vec<PasswordEntry>,
     search_term: String,
 ) -> Result<Vec<(i64, Uuid)>, AppError> {
-    let matcher = &SkimMatcherV2::default();
+    let matcher = &SkimMatcherV2::default().ignore_case();
 
     let result = passwords
         .iter()
