@@ -36,6 +36,10 @@ The binary encrypted files are stored under the config folders of each major os
 | Macos   | $HOME/Library/Application Support/Furred-Vault               |
 | Linux   | $XDG_CONFIG_HOME/furredvault or    $HOME/.config/furredvault |
 
+## Developing it
+
+I wasn't really unfamiliar with either Tauri or svelte as I've done few projects that use these technologies but I haven't sofar combined the two to make a single project. I never faced any challenges as it was pretty straight forward on how I should approach a problem when developing this app.
+
 ## Features
 
 **As of the 12th June 2024 this project is still WIP and will be continued being worked on.**
