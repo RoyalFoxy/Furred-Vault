@@ -2,6 +2,7 @@
 
 - [Furred Vault](#furred-vault)
   - [Basic concept](#basic-concept)
+  - [Developing it](#developing-it)
   - [Features](#features)
   - [Technologies](#technologies)
   - [Development](#development)
